@@ -1,0 +1,142 @@
+.state-container {
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+    min-height: 100%;
+  }
+  
+  .part-one p, 
+  .part-two p, 
+  .part-three p {
+    font-weight: 600;
+    padding-top:0.4rem;
+    padding-bottom:0.4rem;
+  }
+  
+  .part-one p span, 
+  .part-two p span, 
+  .part-three p span{
+    font-weight: 400;
+  }
+  
+  .info-state {
+    padding:1rem;
+  }
+  
+  .flag-state{
+    padding:1rem;
+  }
+
+  .flag-state img{
+    max-width:100%;
+    width:100%;
+    display: block;
+    border: 1px solid black;
+}
+  
+  .part-one{
+    margin-top:1rem;
+  }
+  
+  .part-two{
+    margin-top:1rem;
+    margin-bottom:1rem;
+  }
+  
+  .info-state h2 {
+    font-size: 1.6rem;
+  }
+
+  .back {
+    height:40px;
+    width:120px;
+    border-radius: 5px;
+    border:none;
+    text-align: center;
+    outline: none;
+    margin-top:3rem;
+    margin-left:1rem;
+    cursor: pointer;
+  }
+  
+  .material-icons {
+    font-size: 1rem;
+    margin-right:0.5rem;
+  }
+
+ .back span {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+@media (min-width: 959px) {
+
+    .state-container {
+        display: flex;
+    }
+
+    .flag-state {
+        width:55%;
+    }
+
+    .info-state{
+        width:45%;
+        align-self: center;
+        margin-left:1rem;
+    }
+
+    .part-three {
+        margin-top: 1rem;
+    }
+
+}
+
+  @media (min-width: 1143px) {
+
+    .state-container, .main-section {
+        display: flex;
+    }
+
+    .flag-state {
+        width:50%;
+    }
+
+    .info-state{
+        width:50%;
+        align-self: center;
+        margin-left:1rem;
+    }
+
+    .part-three {
+        margin-top: 2rem;
+    }
+
+    .part-two {
+        margin-left:3rem;
+    }
+
+
+}
+
+@media (min-width: 1439px) {
+
+    .state-container, .main-section {
+        display: flex;
+    }
+
+    .flag-state {
+        width:40%;
+    }
+
+    .info-state{
+        width:60%;
+        align-self: center;
+        margin-left:4rem;
+    }
+
+    .part-two {
+        margin-left:5rem;
+    }
+
+}
